@@ -1,0 +1,2690 @@
+{
+  "scope": "Independent ordinary-hook endpoints, domain counts and exact fixtures",
+  "tables": {
+    "natural_1_200": {
+      "domain_count": 673699647,
+      "strictly_pruned": 673699447,
+      "exact_leaves": 200,
+      "nodes": 15856393,
+      "conjugacy_classes": 200,
+      "partition_count": 332
+    },
+    "natural_201_350": {
+      "domain_count": 957489577883,
+      "strictly_pruned": 957489577709,
+      "exact_leaves": 174,
+      "nodes": 3123622686,
+      "conjugacy_classes": 150,
+      "partition_count": 253
+    },
+    "gap4_rank_1_350": {
+      "groups": 3016,
+      "domain_count": 28495471764,
+      "strictly_pruned": 28495468610,
+      "exact_leaves": 3154,
+      "nodes": 349434937,
+      "conjugacy_classes": 3016,
+      "partition_count": 5033
+    },
+    "every_n_strictly_unimodal_and_strictly_log_concave_in_gap4": true,
+    "peak_rank_changes": [
+      {
+        "n": 1,
+        "rank": 1,
+        "h": [
+          1
+        ]
+      },
+      {
+        "n": 6,
+        "rank": 2,
+        "h": [
+          5,
+          1
+        ]
+      },
+      {
+        "n": 15,
+        "rank": 3,
+        "h": [
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 29,
+        "rank": 4,
+        "h": [
+          14,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 47,
+        "rank": 5,
+        "h": [
+          19,
+          13,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 72,
+        "rank": 6,
+        "h": [
+          25,
+          19,
+          13,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 101,
+        "rank": 7,
+        "h": [
+          31,
+          24,
+          18,
+          13,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 133,
+        "rank": 8,
+        "h": [
+          36,
+          29,
+          23,
+          17,
+          13,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 173,
+        "rank": 9,
+        "h": [
+          43,
+          35,
+          28,
+          22,
+          17,
+          13,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 214,
+        "rank": 10,
+        "h": [
+          48,
+          40,
+          33,
+          27,
+          21,
+          17,
+          13,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 263,
+        "rank": 11,
+        "h": [
+          53,
+          45,
+          39,
+          33,
+          27,
+          21,
+          17,
+          13,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 318,
+        "rank": 12,
+        "h": [
+          60,
+          51,
+          44,
+          38,
+          32,
+          27,
+          21,
+          17,
+          13,
+          9,
+          5,
+          1
+        ]
+      }
+    ],
+    "old_large_slack_constraints_excluding_rank_winner": {
+      "cap": 1398,
+      "monotonicity": 702,
+      "union": 1896
+    }
+  },
+  "samples": {
+    "ordinary_partitions_n_1_35": 81155,
+    "ordinary_partition_comparisons": 508,
+    "exact_tie_fixtures": [
+      {
+        "n": 41,
+        "degree": "108242160039961559040000",
+        "maximizing_h": [
+          [
+            21,
+            14,
+            5,
+            1
+          ],
+          [
+            22,
+            13,
+            5,
+            1
+          ]
+        ],
+        "partitions": [
+          [
+            11,
+            8,
+            5,
+            4,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            11,
+            8,
+            5,
+            4,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          [
+            11,
+            9,
+            5,
+            4,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            12,
+            8,
+            5,
+            4,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 12,
+        "degree": "462",
+        "maximizing_h": [
+          [
+            6,
+            4,
+            2
+          ],
+          [
+            12
+          ]
+        ],
+        "partitions": [
+          [
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            4,
+            4,
+            4
+          ],
+          [
+            6,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "direct_bottom_up_rank_groups": [
+      {
+        "n": 6,
+        "rank": 2,
+        "domain_count": 1,
+        "max_degree": "16",
+        "maximizing_h": [
+          [
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 15,
+        "rank": 3,
+        "domain_count": 1,
+        "max_degree": "292864",
+        "maximizing_h": [
+          [
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 28,
+        "rank": 4,
+        "domain_count": 1,
+        "max_degree": "48608795688960",
+        "maximizing_h": [
+          [
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 47,
+        "rank": 4,
+        "domain_count": 94,
+        "max_degree": "19781229847444022118349188000",
+        "maximizing_h": [
+          [
+            21,
+            14,
+            9,
+            3
+          ]
+        ]
+      },
+      {
+        "n": 47,
+        "rank": 5,
+        "domain_count": 2,
+        "max_degree": "20368873512400427423405568000",
+        "maximizing_h": [
+          [
+            19,
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 69,
+        "rank": 4,
+        "domain_count": 672,
+        "max_degree": "29043570355306383797357070071327409699379200000",
+        "maximizing_h": [
+          [
+            28,
+            20,
+            14,
+            7
+          ]
+        ]
+      },
+      {
+        "n": 69,
+        "rank": 5,
+        "domain_count": 333,
+        "max_degree": "234417911643806987948678393500955835502166016000",
+        "maximizing_h": [
+          [
+            27,
+            19,
+            13,
+            7,
+            3
+          ]
+        ]
+      },
+      {
+        "n": 69,
+        "rank": 6,
+        "domain_count": 3,
+        "max_degree": "159268083533420876996915799398267511212762726400",
+        "maximizing_h": [
+          [
+            24,
+            17,
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 71,
+        "rank": 5,
+        "domain_count": 427,
+        "max_degree": "14061798146634215100928457529846541203122400000000",
+        "maximizing_h": [
+          [
+            27,
+            19,
+            13,
+            9,
+            3
+          ]
+        ]
+      },
+      {
+        "n": 71,
+        "rank": 6,
+        "domain_count": 7,
+        "max_degree": "13634567227655341297745538195377044548415075123200",
+        "maximizing_h": [
+          [
+            25,
+            18,
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 201,
+        "rank": 10,
+        "domain_count": 55,
+        "max_degree": "39920443337554256494728329429057848718157529335939283882209236554798845327434975662254674408845637567786230145168492288392993307453904158357594291015146953749615523939305383369113600000",
+        "maximizing_h": [
+          [
+            44,
+            36,
+            30,
+            25,
+            21,
+            17,
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 214,
+        "rank": 10,
+        "domain_count": 1204,
+        "max_degree": "129261322963126716699507980413509024481168388878403284251855208410680132188060014540874941831912841116652356431627100617351806237995073432805580683852600426433318141038481597911819299350683792179200000",
+        "maximizing_h": [
+          [
+            48,
+            40,
+            33,
+            27,
+            21,
+            17,
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 263,
+        "rank": 11,
+        "domain_count": 5708,
+        "max_degree": "855845569662942669320298363543137620238488730584209404306904531402117432380192449570378602746763844730433385046978107803832494842850161595382850935851138730561778397065317931891238786664834055388295853026803428979313839879547094092555536940849145315328000000",
+        "maximizing_h": [
+          [
+            53,
+            45,
+            39,
+            33,
+            27,
+            21,
+            17,
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 279,
+        "rank": 12,
+        "domain_count": 3,
+        "max_degree": "43215668864443873666862704634926990974876909027371533167693660416014818353146112081585979210524532714876036550916032629660757695103083974339573279310210279653705719153048897802941190556426428739019058584414435418889389208569583445692840795700520645416132271311439240626176000",
+        "maximizing_h": [
+          [
+            48,
+            41,
+            37,
+            33,
+            29,
+            25,
+            21,
+            17,
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      },
+      {
+        "n": 350,
+        "rank": 13,
+        "domain_count": 1763,
+        "max_degree": "37718577280277210213694418237385790270280163404251293397070569672134752085851089481147276689570527776516203122592380085391250471891882272452908628852236635359071501255187298701833073122125221003763636238111926651033144354495404042840526950821307610264229598051287611390578066993767431716131282986193200492008403991679931023156565766982699470278025906604736512000000",
+        "maximizing_h": [
+          [
+            61,
+            52,
+            45,
+            39,
+            33,
+            29,
+            25,
+            21,
+            17,
+            13,
+            9,
+            5,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "listed_collisions": {
+    "n_range": [
+      12,
+      120
+    ],
+    "directly_separable": 367,
+    "strict_competitor_ratios_checked": 719,
+    "primitive_in_all_orientations": 236,
+    "all_orientation_primitive_minimum_gap_2": 128,
+    "all_orientation_primitive_minimum_gap_4": 41,
+    "all_orientation_primitive_minimum_gap_3": 67,
+    "primitive_directly_separable_in_another_orientation": 116,
+    "supplied_moves_matching_gap4_primitive_endpoint": 26,
+    "gap4_primitive_pairs_covered_by_supplied_moves": 26,
+    "supplied_moves": 28
+  },
+  "hook_move_fixtures": [
+    {
+      "id": "B_false_complementarity_and_tightening",
+      "n": 29,
+      "h": [
+        15,
+        9,
+        4,
+        1
+      ],
+      "move": "delete terminal 1, add 1 to first",
+      "h_prime": [
+        16,
+        9,
+        4
+      ],
+      "ratio": "1215/1274"
+    },
+    {
+      "id": "B_false_complementarity_and_tightening",
+      "n": 29,
+      "h": [
+        15,
+        9,
+        4,
+        1
+      ],
+      "move": "first to second",
+      "h_prime": [
+        14,
+        10,
+        4,
+        1
+      ],
+      "ratio": "250/343"
+    },
+    {
+      "id": "B_false_complementarity_and_tightening",
+      "n": 29,
+      "h": [
+        15,
+        9,
+        4,
+        1
+      ],
+      "move": "second to third",
+      "h_prime": [
+        15,
+        8,
+        5,
+        1
+      ],
+      "ratio": "9/11"
+    },
+    {
+      "id": "B_false_complementarity_and_tightening",
+      "n": 29,
+      "h": [
+        15,
+        9,
+        4,
+        1
+      ],
+      "move": "first to third",
+      "h_prime": [
+        14,
+        9,
+        5,
+        1
+      ],
+      "ratio": "4096/3773"
+    },
+    {
+      "id": "B_dense_top_not_rank_drop",
+      "n": 40,
+      "h": [
+        19,
+        16,
+        4,
+        1
+      ],
+      "move": "delete terminal 1, add 1 to first",
+      "h_prime": [
+        20,
+        16,
+        4
+      ],
+      "ratio": "3553/3969"
+    },
+    {
+      "id": "B_dense_top_not_rank_drop",
+      "n": 40,
+      "h": [
+        19,
+        16,
+        4,
+        1
+      ],
+      "move": "top move apart",
+      "h_prime": [
+        20,
+        15,
+        4,
+        1
+      ],
+      "ratio": "190/81"
+    },
+    {
+      "id": "D_false_fixed_five_move_set",
+      "n": 67,
+      "h": [
+        28,
+        19,
+        13,
+        5,
+        2
+      ],
+      "move": "5 to 1",
+      "h_prime": [
+        29,
+        19,
+        13,
+        5,
+        1
+      ],
+      "ratio": "565248/583219"
+    },
+    {
+      "id": "D_false_fixed_five_move_set",
+      "n": 67,
+      "h": [
+        28,
+        19,
+        13,
+        5,
+        2
+      ],
+      "move": "1 to 2",
+      "h_prime": [
+        27,
+        20,
+        13,
+        5,
+        2
+      ],
+      "ratio": "8379/8450"
+    },
+    {
+      "id": "D_false_fixed_five_move_set",
+      "n": 67,
+      "h": [
+        28,
+        19,
+        13,
+        5,
+        2
+      ],
+      "move": "1 to 3",
+      "h_prime": [
+        27,
+        19,
+        14,
+        5,
+        2
+      ],
+      "ratio": "99/115"
+    },
+    {
+      "id": "D_false_fixed_five_move_set",
+      "n": 67,
+      "h": [
+        28,
+        19,
+        13,
+        5,
+        2
+      ],
+      "move": "2 to 1",
+      "h_prime": [
+        29,
+        18,
+        13,
+        5,
+        2
+      ],
+      "ratio": "2490368/3454451"
+    },
+    {
+      "id": "D_false_fixed_five_move_set",
+      "n": 67,
+      "h": [
+        28,
+        19,
+        13,
+        5,
+        2
+      ],
+      "move": "2 to 3",
+      "h_prime": [
+        28,
+        18,
+        14,
+        5,
+        2
+      ],
+      "ratio": "741/1127"
+    },
+    {
+      "id": "D_false_fixed_five_move_set",
+      "n": 67,
+      "h": [
+        28,
+        19,
+        13,
+        5,
+        2
+      ],
+      "move": "3 to 1",
+      "h_prime": [
+        29,
+        19,
+        12,
+        5,
+        2
+      ],
+      "ratio": "31050/37961"
+    },
+    {
+      "id": "D_false_fixed_five_move_set",
+      "n": 67,
+      "h": [
+        28,
+        19,
+        13,
+        5,
+        2
+      ],
+      "move": "3 to 2",
+      "h_prime": [
+        28,
+        20,
+        12,
+        5,
+        2
+      ],
+      "ratio": "11799/13475"
+    },
+    {
+      "id": "D_false_fixed_five_move_set",
+      "n": 67,
+      "h": [
+        28,
+        19,
+        13,
+        5,
+        2
+      ],
+      "move": "1 to 4",
+      "h_prime": [
+        27,
+        19,
+        13,
+        6,
+        2
+      ],
+      "ratio": "7938/3887"
+    },
+    {
+      "id": "D_tail_transfer_before_prefix",
+      "n": 31,
+      "h": [
+        16,
+        8,
+        5,
+        2
+      ],
+      "move": "last to first of tail",
+      "h_prime": [
+        17,
+        8,
+        5,
+        1
+      ],
+      "ratio": "204800/119119"
+    },
+    {
+      "id": "D_tail_transfer_after_prefix",
+      "n": 51,
+      "h": [
+        20,
+        16,
+        8,
+        5,
+        2
+      ],
+      "move": "last to second of full tuple",
+      "h_prime": [
+        20,
+        17,
+        8,
+        5,
+        1
+      ],
+      "ratio": "204800/205751"
+    },
+    {
+      "id": "D_small_top_gap_not_sufficient_for_BT",
+      "n": 50,
+      "h": [
+        22,
+        19,
+        6,
+        3
+      ],
+      "move": "last to first",
+      "h_prime": [
+        23,
+        19,
+        6,
+        2
+      ],
+      "ratio": "363/368"
+    },
+    {
+      "id": "D_small_top_gap_not_sufficient_for_BT",
+      "n": 50,
+      "h": [
+        22,
+        19,
+        6,
+        3
+      ],
+      "move": "first to third",
+      "h_prime": [
+        21,
+        19,
+        7,
+        3
+      ],
+      "ratio": "3267/2000"
+    },
+    {
+      "id": "E_false_three_move_cover",
+      "n": 42,
+      "h": [
+        16,
+        12,
+        9,
+        5
+      ],
+      "move": "internal move apart",
+      "h_prime": [
+        16,
+        13,
+        8,
+        5
+      ],
+      "ratio": "392/405"
+    },
+    {
+      "id": "E_false_three_move_cover",
+      "n": 42,
+      "h": [
+        16,
+        12,
+        9,
+        5
+      ],
+      "move": "penultimate to last",
+      "h_prime": [
+        16,
+        12,
+        8,
+        6
+      ],
+      "ratio": "325/648"
+    },
+    {
+      "id": "E_false_three_move_cover",
+      "n": 42,
+      "h": [
+        16,
+        12,
+        9,
+        5
+      ],
+      "move": "delete terminal 5, add 5 to first",
+      "h_prime": [
+        21,
+        12,
+        9
+      ],
+      "ratio": "49049/103275"
+    },
+    {
+      "id": "E_false_three_move_cover",
+      "n": 42,
+      "h": [
+        16,
+        12,
+        9,
+        5
+      ],
+      "move": "second to first",
+      "h_prime": [
+        17,
+        11,
+        9,
+        5
+      ],
+      "ratio": "13122/12155"
+    },
+    {
+      "id": "E_top_of_tail_move_before_prefix",
+      "n": 26,
+      "h": [
+        12,
+        9,
+        5
+      ],
+      "move": "top of tail move apart",
+      "h_prime": [
+        13,
+        8,
+        5
+      ],
+      "ratio": "56/39"
+    },
+    {
+      "id": "E_H_11_3_appended_4",
+      "n": 176,
+      "h": [
+        35,
+        31,
+        27,
+        23,
+        20,
+        16,
+        12,
+        8,
+        4
+      ],
+      "move": "internal move apart",
+      "h_prime": [
+        35,
+        31,
+        27,
+        24,
+        19,
+        16,
+        12,
+        8,
+        4
+      ],
+      "ratio": "580/693"
+    },
+    {
+      "id": "E_H_11_3_appended_4",
+      "n": 176,
+      "h": [
+        35,
+        31,
+        27,
+        23,
+        20,
+        16,
+        12,
+        8,
+        4
+      ],
+      "move": "penultimate to last",
+      "h_prime": [
+        35,
+        31,
+        27,
+        23,
+        20,
+        16,
+        12,
+        7,
+        5
+      ],
+      "ratio": "5000/9009"
+    },
+    {
+      "id": "E_H_11_3_appended_4",
+      "n": 176,
+      "h": [
+        35,
+        31,
+        27,
+        23,
+        20,
+        16,
+        12,
+        8,
+        4
+      ],
+      "move": "last to first",
+      "h_prime": [
+        36,
+        31,
+        27,
+        23,
+        20,
+        16,
+        12,
+        8,
+        3
+      ],
+      "ratio": "31028423125/11632495446"
+    },
+    {
+      "id": "E_H_11_3_appended_4",
+      "n": 176,
+      "h": [
+        35,
+        31,
+        27,
+        23,
+        20,
+        16,
+        12,
+        8,
+        4
+      ],
+      "move": "last to second",
+      "h_prime": [
+        35,
+        32,
+        27,
+        23,
+        20,
+        16,
+        12,
+        8,
+        3
+      ],
+      "ratio": "69784875/49711519"
+    },
+    {
+      "id": "E_H_11_3_appended_4",
+      "n": 176,
+      "h": [
+        35,
+        31,
+        27,
+        23,
+        20,
+        16,
+        12,
+        8,
+        4
+      ],
+      "move": "third to first",
+      "h_prime": [
+        36,
+        31,
+        26,
+        23,
+        20,
+        16,
+        12,
+        8,
+        4
+      ],
+      "ratio": "1821290625/1600421888"
+    },
+    {
+      "id": "G_false_triple_tail_rank_drop",
+      "n": 45,
+      "h": [
+        23,
+        10,
+        7,
+        4,
+        1
+      ],
+      "move": "delete terminal 1, add 1 to first",
+      "h_prime": [
+        24,
+        10,
+        7,
+        4
+      ],
+      "ratio": "7475/8228"
+    },
+    {
+      "id": "G_false_triple_tail_rank_drop",
+      "n": 45,
+      "h": [
+        23,
+        10,
+        7,
+        4,
+        1
+      ],
+      "move": "first to second",
+      "h_prime": [
+        22,
+        11,
+        7,
+        4,
+        1
+      ],
+      "ratio": "100625/34606"
+    },
+    {
+      "id": "G_adjacent_gap3_pairs_with_extra_hook",
+      "n": 68,
+      "h": [
+        21,
+        18,
+        14,
+        11,
+        4
+      ],
+      "move": "upper move apart",
+      "h_prime": [
+        22,
+        17,
+        14,
+        11,
+        4
+      ],
+      "ratio": "629856/425425"
+    },
+    {
+      "id": "G_adjacent_gap3_pairs_with_extra_hook",
+      "n": 68,
+      "h": [
+        21,
+        18,
+        14,
+        11,
+        4
+      ],
+      "move": "lower move apart",
+      "h_prime": [
+        21,
+        18,
+        15,
+        10,
+        4
+      ],
+      "ratio": "38016/30625"
+    },
+    {
+      "id": "G_adjacent_gap3_pairs_with_extra_hook",
+      "n": 68,
+      "h": [
+        21,
+        18,
+        14,
+        11,
+        4
+      ],
+      "move": "first to third",
+      "h_prime": [
+        20,
+        18,
+        15,
+        11,
+        4
+      ],
+      "ratio": "57344/201875"
+    },
+    {
+      "id": "G_adjacent_gap3_pairs_with_extra_hook",
+      "n": 68,
+      "h": [
+        21,
+        18,
+        14,
+        11,
+        4
+      ],
+      "move": "first to fourth",
+      "h_prime": [
+        20,
+        18,
+        14,
+        12,
+        4
+      ],
+      "ratio": "3773/24225"
+    },
+    {
+      "id": "n41-primitive-continuation",
+      "n": 41,
+      "h": [
+        21,
+        14,
+        5,
+        1
+      ],
+      "h_prime": [
+        23,
+        12,
+        5,
+        1
+      ],
+      "ratio": "552123/753664"
+    },
+    {
+      "id": "n41-primitive-improvement",
+      "n": 41,
+      "h": [
+        21,
+        14,
+        5,
+        1
+      ],
+      "h_prime": [
+        21,
+        13,
+        6,
+        1
+      ],
+      "ratio": "27/17"
+    },
+    {
+      "id": "B-n71-RD",
+      "n": 71,
+      "h": [
+        27,
+        19,
+        13,
+        7,
+        4,
+        1
+      ],
+      "claim": "原七步集或三步集均严格降维",
+      "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+      "move": "删末钩给首钩",
+      "h_prime": [
+        28,
+        19,
+        13,
+        7,
+        4
+      ],
+      "ratio": "244375/246402"
+    },
+    {
+      "id": "B-n71-UT01",
+      "n": 71,
+      "h": [
+        27,
+        19,
+        13,
+        7,
+        4,
+        1
+      ],
+      "claim": "原七步集或三步集均严格降维",
+      "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+      "move": "首钩给第二钩",
+      "h_prime": [
+        26,
+        20,
+        13,
+        7,
+        4,
+        1
+      ],
+      "ratio": "396/455"
+    },
+    {
+      "id": "B-n71-UT02",
+      "n": 71,
+      "h": [
+        27,
+        19,
+        13,
+        7,
+        4,
+        1
+      ],
+      "claim": "原七步集或三步集均严格降维",
+      "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+      "move": "首钩给倒数第二钩",
+      "h_prime": [
+        26,
+        19,
+        13,
+        7,
+        5,
+        1
+      ],
+      "ratio": "24633/25688"
+    },
+    {
+      "id": "B-n71-UT12",
+      "n": 71,
+      "h": [
+        27,
+        19,
+        13,
+        7,
+        4,
+        1
+      ],
+      "claim": "原七步集或三步集均严格降维",
+      "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+      "move": "第二钩给倒数第二钩",
+      "h_prime": [
+        27,
+        18,
+        13,
+        7,
+        5,
+        1
+      ],
+      "ratio": "142025/177147"
+    },
+    {
+      "id": "B-n71-UT23",
+      "n": 71,
+      "h": [
+        27,
+        19,
+        13,
+        7,
+        4,
+        1
+      ],
+      "claim": "原七步集或三步集均严格降维",
+      "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+      "move": "第二钩给第三钩",
+      "h_prime": [
+        27,
+        18,
+        14,
+        7,
+        4,
+        1
+      ],
+      "ratio": "1153953125/1650478599"
+    },
+    {
+      "id": "B-n71-UT21",
+      "n": 71,
+      "h": [
+        27,
+        19,
+        13,
+        7,
+        4,
+        1
+      ],
+      "claim": "原七步集或三步集均严格降维",
+      "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+      "move": "第二钩给首钩",
+      "h_prime": [
+        28,
+        18,
+        13,
+        7,
+        4,
+        1
+      ],
+      "ratio": "40375/56133"
+    },
+    {
+      "id": "B-n71-RD3",
+      "n": 71,
+      "h": [
+        27,
+        19,
+        13,
+        7,
+        4,
+        1
+      ],
+      "claim": "原七步集或三步集均严格降维",
+      "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+      "move": "删末钩给第三钩",
+      "h_prime": [
+        27,
+        19,
+        14,
+        7,
+        4
+      ],
+      "ratio": "409600000/430644357"
+    },
+    {
+      "id": "B-n71-escape",
+      "n": 71,
+      "h": [
+        27,
+        19,
+        13,
+        7,
+        4,
+        1
+      ],
+      "claim": "其他严格增维移动",
+      "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+      "move": "首钩给第四钩",
+      "h_prime": [
+        26,
+        19,
+        13,
+        8,
+        4,
+        1
+      ],
+      "ratio": "3726/2717"
+    },
+    {
+      "id": "B-n143-RD",
+      "n": 143,
+      "h": [
+        51,
+        22,
+        19,
+        16,
+        13,
+        10,
+        7,
+        4,
+        1
+      ],
+      "claim": "九钩最密尾部仍有中间域",
+      "source": "DeepSeek，class_b_r6_intermediate_proof_v3.md Thm 2.2",
+      "move": "删末钩给首钩",
+      "h_prime": [
+        52,
+        22,
+        19,
+        16,
+        13,
+        10,
+        7,
+        4
+      ],
+      "ratio": "1183896/1198615"
+    },
+    {
+      "id": "B-n143-UT02",
+      "n": 143,
+      "h": [
+        51,
+        22,
+        19,
+        16,
+        13,
+        10,
+        7,
+        4,
+        1
+      ],
+      "claim": "九钩最密尾部仍有中间域",
+      "source": "DeepSeek，class_b_r6_intermediate_proof_v3.md Thm 2.2",
+      "move": "首钩给倒数第二钩",
+      "h_prime": [
+        50,
+        22,
+        19,
+        16,
+        13,
+        10,
+        7,
+        5,
+        1
+      ],
+      "ratio": "2567913257/2776779225"
+    },
+    {
+      "id": "B-n143-escape",
+      "n": 143,
+      "h": [
+        51,
+        22,
+        19,
+        16,
+        13,
+        10,
+        7,
+        4,
+        1
+      ],
+      "claim": "九钩最密尾部仍有中间域",
+      "source": "DeepSeek，class_b_r6_intermediate_proof_v3.md Thm 2.2",
+      "move": "首钩给第二钩",
+      "h_prime": [
+        50,
+        23,
+        19,
+        16,
+        13,
+        10,
+        7,
+        4,
+        1
+      ],
+      "ratio": "1178435648/199290375"
+    },
+    {
+      "id": "G-reduction-multi",
+      "n": 41,
+      "h": [
+        15,
+        11,
+        8,
+        5,
+        2
+      ],
+      "claim": "多间距时指定底部外拉不增维",
+      "source": "GPT 第四次审查，gap_review.md 多处间距接口",
+      "move": "第 5 钩给第 4 钩一个单位",
+      "h_prime": [
+        15,
+        11,
+        8,
+        6,
+        1
+      ],
+      "ratio": "875/891"
+    },
+    {
+      "id": "G-reduction-single",
+      "n": 46,
+      "h": [
+        17,
+        13,
+        9,
+        5,
+        2
+      ],
+      "claim": "同末钩同秩的唯一间距3底部外拉严格增维",
+      "source": "DeepSeek，class_d_d2to18_proof_v9.md §2–3",
+      "move": "第 5 钩给第 4 钩一个单位",
+      "h_prime": [
+        17,
+        13,
+        9,
+        6,
+        1
+      ],
+      "ratio": "22/21"
+    },
+    {
+      "id": "G-compressed",
+      "n": 23,
+      "h": [
+        11,
+        7,
+        4,
+        1
+      ],
+      "claim": "该序列的最佳合法保秩单位转移",
+      "source": "DeepSeek，class_g_final_closure_proof.md §4.2–4.3",
+      "move": "第 3 钩给第 1 钩一个单位",
+      "h_prime": [
+        12,
+        7,
+        3,
+        1
+      ],
+      "ratio": "297/175"
+    },
+    {
+      "id": "G-expanded",
+      "n": 24,
+      "h": [
+        12,
+        7,
+        4,
+        1
+      ],
+      "claim": "同结构类型扩张后最佳合法单位转移反而变小",
+      "source": "DeepSeek，class_g_final_closure_proof.md §4.2–4.3",
+      "move": "第 3 钩给第 1 钩一个单位",
+      "h_prime": [
+        13,
+        7,
+        3,
+        1
+      ],
+      "ratio": "729/455"
+    },
+    {
+      "id": "G-penultimate-receiver-A",
+      "n": 333,
+      "h": [
+        49,
+        46,
+        43,
+        40,
+        37,
+        34,
+        31,
+        28,
+        25
+      ],
+      "claim": "Case A 指定移步在 n>300 降维",
+      "source": "DeepSeek，class_g_final_closure_proof_v2.md §4.3",
+      "move": "第 2 钩给第 8 钩一个单位",
+      "h_prime": [
+        49,
+        45,
+        43,
+        40,
+        37,
+        34,
+        31,
+        29,
+        25
+      ],
+      "ratio": "6874208911360/44980964823861"
+    },
+    {
+      "id": "G-penultimate-receiver-B",
+      "n": 334,
+      "h": [
+        50,
+        46,
+        43,
+        40,
+        37,
+        34,
+        31,
+        28,
+        25
+      ],
+      "claim": "Case B 指定移步在 n>300 降维",
+      "source": "DeepSeek，class_g_final_closure_proof_v2.md §4.4",
+      "move": "第 1 钩给第 8 钩一个单位",
+      "h_prime": [
+        49,
+        46,
+        43,
+        40,
+        37,
+        34,
+        31,
+        29,
+        25
+      ],
+      "ratio": "1054000/11847231"
+    },
+    {
+      "id": "G-rank-four",
+      "n": 301,
+      "h": [
+        289,
+        7,
+        4,
+        1
+      ],
+      "claim": "统一转移在低秩 n=301 时严格降维",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.1",
+      "move": "第 3 钩给第 1 钩一个单位",
+      "h_prime": [
+        290,
+        7,
+        3,
+        1
+      ],
+      "ratio": "85544/2556095"
+    },
+    {
+      "id": "G-rank-four-escape",
+      "n": 301,
+      "h": [
+        289,
+        7,
+        4,
+        1
+      ],
+      "claim": "同一序列有其他合法增维移动",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.1",
+      "move": "第 1 钩给第 2 钩一个单位",
+      "h_prime": [
+        288,
+        8,
+        4,
+        1
+      ],
+      "ratio": "1250127769625/22570819776"
+    },
+    {
+      "id": "G-rank-ten",
+      "n": 301,
+      "h": [
+        160,
+        31,
+        27,
+        23,
+        19,
+        15,
+        11,
+        8,
+        5,
+        2
+      ],
+      "claim": "统一转移在高秩 n=301 时严格降维",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.9 (3)",
+      "move": "第 10 钩给第 1 钩一个单位",
+      "h_prime": [
+        161,
+        31,
+        27,
+        23,
+        19,
+        15,
+        11,
+        8,
+        5,
+        1
+      ],
+      "ratio": "6608856989645801921875/15305516896434406817792"
+    },
+    {
+      "id": "G-rank-ten-escape",
+      "n": 301,
+      "h": [
+        160,
+        31,
+        27,
+        23,
+        19,
+        15,
+        11,
+        8,
+        5,
+        2
+      ],
+      "claim": "同一序列有其他合法增维移动",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.9 (3)",
+      "move": "第 1 钩给第 2 钩一个单位",
+      "h_prime": [
+        159,
+        32,
+        27,
+        23,
+        19,
+        15,
+        11,
+        8,
+        5,
+        2
+      ],
+      "ratio": "537716654786570957775/48945048969440764829"
+    },
+    {
+      "id": "G-translation-n301",
+      "n": 301,
+      "h": [
+        80,
+        77,
+        74,
+        70
+      ],
+      "claim": "固定差与同一指定移动，n=301 的精确全比",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.8",
+      "move": "第 4 钩给第 1 钩一个单位",
+      "h_prime": [
+        81,
+        77,
+        74,
+        69
+      ],
+      "ratio": "571805696/84757599"
+    },
+    {
+      "id": "G-translation-n305",
+      "n": 305,
+      "h": [
+        81,
+        78,
+        75,
+        71
+      ],
+      "claim": "固定差与同一指定移动，n=305 的精确全比",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.8",
+      "move": "第 4 钩给第 1 钩一个单位",
+      "h_prime": [
+        82,
+        78,
+        75,
+        70
+      ],
+      "ratio": "16373097/2487880"
+    },
+    {
+      "id": "D-d5-boundary",
+      "n": 61,
+      "h": [
+        20,
+        16,
+        12,
+        8,
+        5
+      ],
+      "claim": "唯一底部间距3且 r=5 的外拉持平边界",
+      "source": "DeepSeek，class_d_d2to18_proof_v9.md §5",
+      "move": "第 5 钩给第 4 钩一个单位",
+      "h_prime": [
+        20,
+        16,
+        12,
+        9,
+        4
+      ],
+      "ratio": "1"
+    },
+    {
+      "id": "D-d5-boundary-escape",
+      "n": 61,
+      "h": [
+        20,
+        16,
+        12,
+        8,
+        5
+      ],
+      "claim": "持平边界仍可严格增维",
+      "source": "DeepSeek，class_d_d2to18_proof_v9.md §5",
+      "move": "第 5 钩给第 1 钩一个单位",
+      "h_prime": [
+        21,
+        16,
+        12,
+        8,
+        4
+      ],
+      "ratio": "4158/1615"
+    },
+    {
+      "id": "H-central-k8",
+      "n": 124,
+      "h": [
+        29,
+        25,
+        21,
+        17,
+        14,
+        10,
+        6,
+        2
+      ],
+      "claim": "H(8,3) 中央外拉严格降维",
+      "source": "ChatGPT Chat 第二轮，gap3_infinite_family.md §3",
+      "move": "第 5 钩给第 4 钩一个单位",
+      "h_prime": [
+        29,
+        25,
+        21,
+        18,
+        13,
+        10,
+        6,
+        2
+      ],
+      "ratio": "368/441"
+    },
+    {
+      "id": "G-rank-four-d2",
+      "n": 301,
+      "h": [
+        286,
+        8,
+        5,
+        2
+      ],
+      "h_prime": [
+        287,
+        8,
+        5,
+        1
+      ],
+      "claim": "Thm 4.1 在 n=301、末钩2时的统一移动降维",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md §4.1",
+      "move": "末钩给首钩",
+      "ratio": "4877597725/77596107959"
+    },
+    {
+      "id": "G-rank-four-d2-escape",
+      "n": 301,
+      "h": [
+        286,
+        8,
+        5,
+        2
+      ],
+      "h_prime": [
+        285,
+        9,
+        5,
+        2
+      ],
+      "claim": "同序列另有严格增维移动",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md §4.1",
+      "move": "首钩给第二钩",
+      "ratio": "45238116352/755856841"
+    },
+    {
+      "id": "G-template-expansion",
+      "n": 301,
+      "h": [
+        220,
+        30,
+        27,
+        24
+      ],
+      "h_prime": [
+        221,
+        30,
+        27,
+        23
+      ],
+      "claim": "模板 (34,30,27,24) 单独扩张首钩后的同移动降维",
+      "source": "DeepSeek，class_g_final_closure_proof_v3.md §4.7–4.8",
+      "move": "末钩给首钩",
+      "ratio": "16838745264/50318258809"
+    },
+    {
+      "id": "within-rank-curvature-down",
+      "n": 45,
+      "h": [
+        24,
+        15,
+        6
+      ],
+      "h_prime": [
+        23,
+        15,
+        7
+      ],
+      "claim": "两方向的比相乘为65536/65205>1",
+      "source": "DeepSeek，within_rank_convexity_g1_v2.md Thm 3.1",
+      "move": "首钩给末钩",
+      "ratio": "524288/302841"
+    },
+    {
+      "id": "within-rank-curvature-up",
+      "n": 45,
+      "h": [
+        24,
+        15,
+        6
+      ],
+      "h_prime": [
+        25,
+        15,
+        5
+      ],
+      "claim": "两方向的比相乘为65536/65205>1",
+      "source": "DeepSeek，within_rank_convexity_g1_v2.md Thm 3.1",
+      "move": "末钩给首钩",
+      "ratio": "209/360"
+    },
+    {
+      "id": "G4-concentration",
+      "n": 47,
+      "h": [
+        26,
+        11,
+        7,
+        3
+      ],
+      "h_prime": [
+        21,
+        14,
+        9,
+        3
+      ],
+      "claim": "同秩、同末钩、同总和的首间距集中松弛劣于分散松弛",
+      "source": "DeepSeek，cross_rank_G4_balanced_slack_proof.md Thm 1.1, Cor 1.2",
+      "move": "重新分配间距松弛",
+      "ratio": "529815/65536"
+    },
+    {
+      "id": "tie-45",
+      "n": 45,
+      "h": [
+        22,
+        16,
+        7
+      ],
+      "h_prime": [
+        24,
+        14,
+        7
+      ],
+      "claim": "等维但非单位主钩转移",
+      "source": "DeepSeek，《第四次提示后的纠偏》 §1.1",
+      "move": "第二钩给首钩两个单位",
+      "ratio": "1"
+    },
+    {
+      "id": "tie-45-escape",
+      "n": 45,
+      "h": [
+        22,
+        16,
+        7
+      ],
+      "h_prime": [
+        20,
+        14,
+        8,
+        3
+      ],
+      "claim": "同秩等维对的共同值低于全局最大",
+      "source": "DeepSeek，《第四次提示后的纠偏》 §1.1",
+      "move": "换为严格更大的秩4序列",
+      "ratio": "87723/8092"
+    }
+  ],
+  "source_regressions": {
+    "g2": {
+      "n": 69,
+      "rank": 4,
+      "slack": 41,
+      "original_returned_h": [
+        26,
+        17,
+        9,
+        1
+      ],
+      "original_returned_sum": 53,
+      "original_W_for_wrong_size": "1/26581842595595435255774877450240000000",
+      "unrestricted_count": 672,
+      "restricted_count": 252,
+      "best_in_intended_restricted_domain": [
+        27,
+        20,
+        14,
+        8
+      ],
+      "certified_h": [
+        28,
+        20,
+        14,
+        7
+      ],
+      "certified_degree": "29043570355306383797357070071327409699379200000",
+      "certified_over_restricted": "22264/22113"
+    },
+    "layer": {
+      "n": 201,
+      "h": [
+        47,
+        39,
+        32,
+        26,
+        21,
+        15,
+        11,
+        7,
+        3
+      ],
+      "source_h_to_lambda_sum": 997,
+      "ratio_x": [
+        4,
+        1
+      ],
+      "ratio_step": [
+        1,
+        -1
+      ],
+      "source_ratio": "25/3",
+      "correct_ratio": "1/3",
+      "corrected_script_expected_fields": [
+        "d",
+        "gaps",
+        "h",
+        "lambda",
+        "min_gap",
+        "n",
+        "rank"
+      ],
+      "corrected_201_fields": [
+        "gaps",
+        "h",
+        "min_gap",
+        "n",
+        "rank",
+        "unit_optimal",
+        "was_fixed"
+      ]
+    },
+    "false_local_flags": {
+      "n300_verified": {
+        "gap2_counterexamples_to_true_local_flag": [
+          {
+            "n": 226,
+            "old_h": [
+              50,
+              42,
+              35,
+              29,
+              23,
+              19,
+              13,
+              9,
+              5,
+              1
+            ],
+            "move_from": 2,
+            "move_to": 1,
+            "h": [
+              51,
+              41,
+              35,
+              29,
+              23,
+              19,
+              13,
+              9,
+              5,
+              1
+            ],
+            "ratio": "1054609250409/1053480650000"
+          },
+          {
+            "n": 241,
+            "old_h": [
+              50,
+              43,
+              37,
+              31,
+              25,
+              19,
+              15,
+              11,
+              7,
+              3
+            ],
+            "move_from": 3,
+            "move_to": 1,
+            "h": [
+              51,
+              43,
+              36,
+              31,
+              25,
+              19,
+              15,
+              11,
+              7,
+              3
+            ],
+            "ratio": "2003764064207817932800/1916080705448225741799"
+          },
+          {
+            "n": 292,
+            "old_h": [
+              58,
+              50,
+              42,
+              36,
+              30,
+              25,
+              19,
+              15,
+              11,
+              5,
+              1
+            ],
+            "move_from": 9,
+            "move_to": 1,
+            "h": [
+              59,
+              50,
+              42,
+              36,
+              30,
+              25,
+              19,
+              15,
+              10,
+              5,
+              1
+            ],
+            "ratio": "4683306479704875/4563872566654856"
+          }
+        ],
+        "gap3_counterexamples_to_true_local_flag": [
+          {
+            "n": 226,
+            "old_h": [
+              50,
+              42,
+              35,
+              29,
+              23,
+              19,
+              13,
+              9,
+              5,
+              1
+            ],
+            "move_from": 2,
+            "move_to": 1,
+            "h": [
+              51,
+              41,
+              35,
+              29,
+              23,
+              19,
+              13,
+              9,
+              5,
+              1
+            ],
+            "ratio": "1054609250409/1053480650000"
+          },
+          {
+            "n": 241,
+            "old_h": [
+              50,
+              43,
+              37,
+              31,
+              25,
+              19,
+              15,
+              11,
+              7,
+              3
+            ],
+            "move_from": 3,
+            "move_to": 1,
+            "h": [
+              51,
+              43,
+              36,
+              31,
+              25,
+              19,
+              15,
+              11,
+              7,
+              3
+            ],
+            "ratio": "2003764064207817932800/1916080705448225741799"
+          },
+          {
+            "n": 292,
+            "old_h": [
+              58,
+              50,
+              42,
+              36,
+              30,
+              25,
+              19,
+              15,
+              11,
+              5,
+              1
+            ],
+            "move_from": 9,
+            "move_to": 1,
+            "h": [
+              59,
+              50,
+              42,
+              36,
+              30,
+              25,
+              19,
+              15,
+              10,
+              5,
+              1
+            ],
+            "ratio": "4683306479704875/4563872566654856"
+          }
+        ]
+      },
+      "201_300_layer_screen": {
+        "gap2_counterexamples_to_true_local_flag": [
+          {
+            "n": 226,
+            "old_h": [
+              50,
+              42,
+              35,
+              29,
+              23,
+              19,
+              13,
+              9,
+              5,
+              1
+            ],
+            "move_from": 2,
+            "move_to": 1,
+            "h": [
+              51,
+              41,
+              35,
+              29,
+              23,
+              19,
+              13,
+              9,
+              5,
+              1
+            ],
+            "ratio": "1054609250409/1053480650000"
+          },
+          {
+            "n": 241,
+            "old_h": [
+              50,
+              43,
+              37,
+              31,
+              25,
+              19,
+              15,
+              11,
+              7,
+              3
+            ],
+            "move_from": 3,
+            "move_to": 1,
+            "h": [
+              51,
+              43,
+              36,
+              31,
+              25,
+              19,
+              15,
+              11,
+              7,
+              3
+            ],
+            "ratio": "2003764064207817932800/1916080705448225741799"
+          },
+          {
+            "n": 292,
+            "old_h": [
+              58,
+              50,
+              42,
+              36,
+              30,
+              25,
+              19,
+              15,
+              11,
+              5,
+              1
+            ],
+            "move_from": 9,
+            "move_to": 1,
+            "h": [
+              59,
+              50,
+              42,
+              36,
+              30,
+              25,
+              19,
+              15,
+              10,
+              5,
+              1
+            ],
+            "ratio": "4683306479704875/4563872566654856"
+          }
+        ],
+        "gap3_counterexamples_to_true_local_flag": [
+          {
+            "n": 226,
+            "old_h": [
+              50,
+              42,
+              35,
+              29,
+              23,
+              19,
+              13,
+              9,
+              5,
+              1
+            ],
+            "move_from": 2,
+            "move_to": 1,
+            "h": [
+              51,
+              41,
+              35,
+              29,
+              23,
+              19,
+              13,
+              9,
+              5,
+              1
+            ],
+            "ratio": "1054609250409/1053480650000"
+          },
+          {
+            "n": 241,
+            "old_h": [
+              50,
+              43,
+              37,
+              31,
+              25,
+              19,
+              15,
+              11,
+              7,
+              3
+            ],
+            "move_from": 3,
+            "move_to": 1,
+            "h": [
+              51,
+              43,
+              36,
+              31,
+              25,
+              19,
+              15,
+              11,
+              7,
+              3
+            ],
+            "ratio": "2003764064207817932800/1916080705448225741799"
+          },
+          {
+            "n": 292,
+            "old_h": [
+              58,
+              50,
+              42,
+              36,
+              30,
+              25,
+              19,
+              15,
+              11,
+              5,
+              1
+            ],
+            "move_from": 9,
+            "move_to": 1,
+            "h": [
+              59,
+              50,
+              42,
+              36,
+              30,
+              25,
+              19,
+              15,
+              10,
+              5,
+              1
+            ],
+            "ratio": "4683306479704875/4563872566654856"
+          }
+        ]
+      },
+      "n300_corrected": {
+        "gap2_counterexamples_to_true_local_flag": [],
+        "gap3_counterexamples_to_true_local_flag": []
+      }
+    },
+    "beaten_old_candidates": [
+      {
+        "n": 214,
+        "h": [
+          50,
+          41,
+          34,
+          28,
+          22,
+          17,
+          12,
+          7,
+          3
+        ],
+        "certified_over_old": "18177496440355950690304/18127028003064509988261",
+        "certified_h": [
+          48,
+          40,
+          33,
+          27,
+          21,
+          17,
+          13,
+          9,
+          5,
+          1
+        ]
+      },
+      {
+        "n": 263,
+        "h": [
+          55,
+          47,
+          39,
+          33,
+          27,
+          22,
+          17,
+          13,
+          7,
+          3
+        ],
+        "certified_over_old": "123571353675861580799402835968/119703487640874866900482340029",
+        "certified_h": [
+          53,
+          45,
+          39,
+          33,
+          27,
+          21,
+          17,
+          13,
+          9,
+          5,
+          1
+        ]
+      }
+    ],
+    "cross_rank_obstructions": [
+      {
+        "n": 28,
+        "r": 4,
+        "h": [
+          13,
+          9,
+          5,
+          1
+        ],
+        "next_lower_rank_h": [
+          15,
+          9,
+          4
+        ],
+        "next_lower_rank_ratio": "2477475/2097152",
+        "valid_single_receivers_in_gap4": {
+          "1": "32175/32768"
+        }
+      },
+      {
+        "n": 69,
+        "r": 6,
+        "h": [
+          24,
+          17,
+          13,
+          9,
+          5,
+          1
+        ],
+        "next_lower_rank_h": [
+          27,
+          19,
+          13,
+          7,
+          3
+        ],
+        "next_lower_rank_ratio": "42454229895/28844228608",
+        "valid_single_receivers_in_gap4": {
+          "1": "3276/3553",
+          "2": "62846875/67108864"
+        }
+      },
+      {
+        "n": 71,
+        "r": 6,
+        "h": [
+          25,
+          18,
+          13,
+          9,
+          5,
+          1
+        ],
+        "next_lower_rank_h": [
+          27,
+          19,
+          13,
+          9,
+          3
+        ],
+        "next_lower_rank_ratio": "18745845015625/18176301596672",
+        "valid_single_receivers_in_gap4": {
+          "1": "484701875/603979776",
+          "2": "2354909375/2550136832",
+          "3": "286983125/402653184"
+        }
+      }
+    ],
+    "n69_compound_move_ratio": "24958395/27262976",
+    "n47_split_obstruction": [
+      21,
+      14,
+      9,
+      3
+    ],
+    "n71_split_receiver_erroneous_over_correct_factor": "168/169",
+    "n71_split_receiver_erroneous_ratio": "3392913125/4253024256"
+  }
+}

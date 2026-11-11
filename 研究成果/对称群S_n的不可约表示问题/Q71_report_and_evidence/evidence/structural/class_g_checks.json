@@ -1,0 +1,187 @@
+{
+  "exact_move_fixtures": 35,
+  "count_scope": "all adjacent gaps >= 3, at least two equal to 3, positive bottom hook",
+  "counts": [
+    {
+      "max_n": 50,
+      "count": "475",
+      "count_rank_at_least_four": "462",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "277"
+    },
+    {
+      "max_n": 60,
+      "count": "1467",
+      "count_rank_at_least_four": "1450",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "925"
+    },
+    {
+      "max_n": 100,
+      "count": "60912",
+      "count_rank_at_least_four": "60882",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "44258"
+    },
+    {
+      "max_n": 120,
+      "count": "284944",
+      "count_rank_at_least_four": "284907",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "213177"
+    },
+    {
+      "max_n": 125,
+      "count": "409393",
+      "count_rank_at_least_four": "409355",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "308163"
+    },
+    {
+      "max_n": 150,
+      "count": "2249756",
+      "count_rank_at_least_four": "2249709",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "1731934"
+    },
+    {
+      "max_n": 200,
+      "count": "44838202",
+      "count_rank_at_least_four": "44838139",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "35438907"
+    },
+    {
+      "max_n": 300,
+      "count": "6352849322",
+      "count_rank_at_least_four": "6352849225",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "5141846762"
+    },
+    {
+      "max_n": 350,
+      "count": "54229285520",
+      "count_rank_at_least_four": "54229285407",
+      "count_rank_at_least_four_top_gap_at_least_four_bottom_at_most_five": "44165055749"
+    }
+  ],
+  "fixed_templates": {
+    "scope": "first hook 34, rank 4..9, all adjacent gaps 3 or 4 with at least two 3s",
+    "count": 465,
+    "n_min": 115,
+    "n_max": 198,
+    "minimum_exact_ratio": {
+      "ratio": "1332045/489056",
+      "hooks": [
+        [
+          34,
+          30,
+          26,
+          23,
+          20,
+          17,
+          13,
+          9,
+          5
+        ]
+      ]
+    },
+    "minimum_conservative_ratio": {
+      "ratio": "16599265906765726789632/11564567872159680156625",
+      "hooks": [
+        [
+          34,
+          31,
+          28,
+          24,
+          20,
+          16,
+          12,
+          8,
+          4
+        ],
+        [
+          34,
+          31,
+          27,
+          24,
+          20,
+          16,
+          12,
+          8,
+          4
+        ],
+        [
+          34,
+          30,
+          27,
+          24,
+          20,
+          16,
+          12,
+          8,
+          4
+        ],
+        [
+          34,
+          31,
+          27,
+          23,
+          20,
+          16,
+          12,
+          8,
+          4
+        ],
+        [
+          34,
+          30,
+          27,
+          23,
+          20,
+          16,
+          12,
+          8,
+          4
+        ],
+        [
+          34,
+          30,
+          26,
+          23,
+          20,
+          16,
+          12,
+          8,
+          4
+        ]
+      ]
+    }
+  },
+  "translated_counterexample": [
+    {
+      "hooks": [
+        80,
+        77,
+        74,
+        70
+      ],
+      "target": [
+        81,
+        77,
+        74,
+        69
+      ],
+      "exact_ratio": "571805696/84757599",
+      "conservative_ratio": "297493504/58783101"
+    },
+    {
+      "hooks": [
+        81,
+        78,
+        75,
+        71
+      ],
+      "target": [
+        82,
+        78,
+        75,
+        70
+      ],
+      "exact_ratio": "16373097/2487880",
+      "conservative_ratio": "5179356351/1049112100"
+    }
+  ]
+}

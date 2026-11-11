@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "B_false_complementarity_and_tightening",
+    "h": [
+      15,
+      9,
+      4,
+      1
+    ],
+    "n": 29,
+    "moves": [
+      {
+        "move": "delete terminal 1, add 1 to first",
+        "h_prime": [
+          16,
+          9,
+          4
+        ],
+        "ratio": "1215/1274"
+      },
+      {
+        "move": "first to second",
+        "h_prime": [
+          14,
+          10,
+          4,
+          1
+        ],
+        "ratio": "250/343"
+      },
+      {
+        "move": "second to third",
+        "h_prime": [
+          15,
+          8,
+          5,
+          1
+        ],
+        "ratio": "9/11"
+      },
+      {
+        "move": "first to third",
+        "h_prime": [
+          14,
+          9,
+          5,
+          1
+        ],
+        "ratio": "4096/3773"
+      }
+    ]
+  },
+  {
+    "id": "B_dense_top_not_rank_drop",
+    "h": [
+      19,
+      16,
+      4,
+      1
+    ],
+    "n": 40,
+    "moves": [
+      {
+        "move": "delete terminal 1, add 1 to first",
+        "h_prime": [
+          20,
+          16,
+          4
+        ],
+        "ratio": "3553/3969"
+      },
+      {
+        "move": "top move apart",
+        "h_prime": [
+          20,
+          15,
+          4,
+          1
+        ],
+        "ratio": "190/81"
+      }
+    ]
+  },
+  {
+    "id": "D_false_fixed_five_move_set",
+    "h": [
+      28,
+      19,
+      13,
+      5,
+      2
+    ],
+    "n": 67,
+    "moves": [
+      {
+        "move": "5 to 1",
+        "h_prime": [
+          29,
+          19,
+          13,
+          5,
+          1
+        ],
+        "ratio": "565248/583219"
+      },
+      {
+        "move": "1 to 2",
+        "h_prime": [
+          27,
+          20,
+          13,
+          5,
+          2
+        ],
+        "ratio": "8379/8450"
+      },
+      {
+        "move": "1 to 3",
+        "h_prime": [
+          27,
+          19,
+          14,
+          5,
+          2
+        ],
+        "ratio": "99/115"
+      },
+      {
+        "move": "2 to 1",
+        "h_prime": [
+          29,
+          18,
+          13,
+          5,
+          2
+        ],
+        "ratio": "2490368/3454451"
+      },
+      {
+        "move": "2 to 3",
+        "h_prime": [
+          28,
+          18,
+          14,
+          5,
+          2
+        ],
+        "ratio": "741/1127"
+      },
+      {
+        "move": "3 to 1",
+        "h_prime": [
+          29,
+          19,
+          12,
+          5,
+          2
+        ],
+        "ratio": "31050/37961"
+      },
+      {
+        "move": "3 to 2",
+        "h_prime": [
+          28,
+          20,
+          12,
+          5,
+          2
+        ],
+        "ratio": "11799/13475"
+      },
+      {
+        "move": "1 to 4",
+        "h_prime": [
+          27,
+          19,
+          13,
+          6,
+          2
+        ],
+        "ratio": "7938/3887"
+      }
+    ]
+  },
+  {
+    "id": "D_tail_transfer_before_prefix",
+    "h": [
+      16,
+      8,
+      5,
+      2
+    ],
+    "n": 31,
+    "moves": [
+      {
+        "move": "last to first of tail",
+        "h_prime": [
+          17,
+          8,
+          5,
+          1
+        ],
+        "ratio": "204800/119119"
+      }
+    ]
+  },
+  {
+    "id": "D_tail_transfer_after_prefix",
+    "h": [
+      20,
+      16,
+      8,
+      5,
+      2
+    ],
+    "n": 51,
+    "moves": [
+      {
+        "move": "last to second of full tuple",
+        "h_prime": [
+          20,
+          17,
+          8,
+          5,
+          1
+        ],
+        "ratio": "204800/205751"
+      }
+    ]
+  },
+  {
+    "id": "D_small_top_gap_not_sufficient_for_BT",
+    "h": [
+      22,
+      19,
+      6,
+      3
+    ],
+    "n": 50,
+    "moves": [
+      {
+        "move": "last to first",
+        "h_prime": [
+          23,
+          19,
+          6,
+          2
+        ],
+        "ratio": "363/368"
+      },
+      {
+        "move": "first to third",
+        "h_prime": [
+          21,
+          19,
+          7,
+          3
+        ],
+        "ratio": "3267/2000"
+      }
+    ]
+  },
+  {
+    "id": "E_false_three_move_cover",
+    "h": [
+      16,
+      12,
+      9,
+      5
+    ],
+    "n": 42,
+    "moves": [
+      {
+        "move": "internal move apart",
+        "h_prime": [
+          16,
+          13,
+          8,
+          5
+        ],
+        "ratio": "392/405"
+      },
+      {
+        "move": "penultimate to last",
+        "h_prime": [
+          16,
+          12,
+          8,
+          6
+        ],
+        "ratio": "325/648"
+      },
+      {
+        "move": "delete terminal 5, add 5 to first",
+        "h_prime": [
+          21,
+          12,
+          9
+        ],
+        "ratio": "49049/103275"
+      },
+      {
+        "move": "second to first",
+        "h_prime": [
+          17,
+          11,
+          9,
+          5
+        ],
+        "ratio": "13122/12155"
+      }
+    ]
+  },
+  {
+    "id": "E_top_of_tail_move_before_prefix",
+    "h": [
+      12,
+      9,
+      5
+    ],
+    "n": 26,
+    "moves": [
+      {
+        "move": "top of tail move apart",
+        "h_prime": [
+          13,
+          8,
+          5
+        ],
+        "ratio": "56/39"
+      }
+    ]
+  },
+  {
+    "id": "E_H_11_3_appended_4",
+    "h": [
+      35,
+      31,
+      27,
+      23,
+      20,
+      16,
+      12,
+      8,
+      4
+    ],
+    "n": 176,
+    "moves": [
+      {
+        "move": "internal move apart",
+        "h_prime": [
+          35,
+          31,
+          27,
+          24,
+          19,
+          16,
+          12,
+          8,
+          4
+        ],
+        "ratio": "580/693"
+      },
+      {
+        "move": "penultimate to last",
+        "h_prime": [
+          35,
+          31,
+          27,
+          23,
+          20,
+          16,
+          12,
+          7,
+          5
+        ],
+        "ratio": "5000/9009"
+      },
+      {
+        "move": "last to first",
+        "h_prime": [
+          36,
+          31,
+          27,
+          23,
+          20,
+          16,
+          12,
+          8,
+          3
+        ],
+        "ratio": "31028423125/11632495446"
+      },
+      {
+        "move": "last to second",
+        "h_prime": [
+          35,
+          32,
+          27,
+          23,
+          20,
+          16,
+          12,
+          8,
+          3
+        ],
+        "ratio": "69784875/49711519"
+      },
+      {
+        "move": "third to first",
+        "h_prime": [
+          36,
+          31,
+          26,
+          23,
+          20,
+          16,
+          12,
+          8,
+          4
+        ],
+        "ratio": "1821290625/1600421888"
+      }
+    ]
+  },
+  {
+    "id": "G_false_triple_tail_rank_drop",
+    "h": [
+      23,
+      10,
+      7,
+      4,
+      1
+    ],
+    "n": 45,
+    "moves": [
+      {
+        "move": "delete terminal 1, add 1 to first",
+        "h_prime": [
+          24,
+          10,
+          7,
+          4
+        ],
+        "ratio": "7475/8228"
+      },
+      {
+        "move": "first to second",
+        "h_prime": [
+          22,
+          11,
+          7,
+          4,
+          1
+        ],
+        "ratio": "100625/34606"
+      }
+    ]
+  },
+  {
+    "id": "G_adjacent_gap3_pairs_with_extra_hook",
+    "h": [
+      21,
+      18,
+      14,
+      11,
+      4
+    ],
+    "n": 68,
+    "moves": [
+      {
+        "move": "upper move apart",
+        "h_prime": [
+          22,
+          17,
+          14,
+          11,
+          4
+        ],
+        "ratio": "629856/425425"
+      },
+      {
+        "move": "lower move apart",
+        "h_prime": [
+          21,
+          18,
+          15,
+          10,
+          4
+        ],
+        "ratio": "38016/30625"
+      },
+      {
+        "move": "first to third",
+        "h_prime": [
+          20,
+          18,
+          15,
+          11,
+          4
+        ],
+        "ratio": "57344/201875"
+      },
+      {
+        "move": "first to fourth",
+        "h_prime": [
+          20,
+          18,
+          14,
+          12,
+          4
+        ],
+        "ratio": "3773/24225"
+      }
+    ]
+  },
+  {
+    "id": "n41-primitive-continuation",
+    "n": 41,
+    "h": [
+      21,
+      14,
+      5,
+      1
+    ],
+    "moves": [
+      {
+        "h_prime": [
+          23,
+          12,
+          5,
+          1
+        ],
+        "ratio": "552123/753664"
+      }
+    ]
+  },
+  {
+    "id": "n41-primitive-improvement",
+    "n": 41,
+    "h": [
+      21,
+      14,
+      5,
+      1
+    ],
+    "moves": [
+      {
+        "h_prime": [
+          21,
+          13,
+          6,
+          1
+        ],
+        "ratio": "27/17"
+      }
+    ]
+  },
+  {
+    "id": "B-n71-RD",
+    "h": [
+      27,
+      19,
+      13,
+      7,
+      4,
+      1
+    ],
+    "n": 71,
+    "moves": [
+      {
+        "claim": "原七步集或三步集均严格降维",
+        "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+        "move": "删末钩给首钩",
+        "h_prime": [
+          28,
+          19,
+          13,
+          7,
+          4
+        ],
+        "ratio": "244375/246402"
+      }
+    ]
+  },
+  {
+    "id": "B-n71-UT01",
+    "h": [
+      27,
+      19,
+      13,
+      7,
+      4,
+      1
+    ],
+    "n": 71,
+    "moves": [
+      {
+        "claim": "原七步集或三步集均严格降维",
+        "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+        "move": "首钩给第二钩",
+        "h_prime": [
+          26,
+          20,
+          13,
+          7,
+          4,
+          1
+        ],
+        "ratio": "396/455"
+      }
+    ]
+  },
+  {
+    "id": "B-n71-UT02",
+    "h": [
+      27,
+      19,
+      13,
+      7,
+      4,
+      1
+    ],
+    "n": 71,
+    "moves": [
+      {
+        "claim": "原七步集或三步集均严格降维",
+        "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+        "move": "首钩给倒数第二钩",
+        "h_prime": [
+          26,
+          19,
+          13,
+          7,
+          5,
+          1
+        ],
+        "ratio": "24633/25688"
+      }
+    ]
+  },
+  {
+    "id": "B-n71-UT12",
+    "h": [
+      27,
+      19,
+      13,
+      7,
+      4,
+      1
+    ],
+    "n": 71,
+    "moves": [
+      {
+        "claim": "原七步集或三步集均严格降维",
+        "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+        "move": "第二钩给倒数第二钩",
+        "h_prime": [
+          27,
+          18,
+          13,
+          7,
+          5,
+          1
+        ],
+        "ratio": "142025/177147"
+      }
+    ]
+  },
+  {
+    "id": "B-n71-UT23",
+    "h": [
+      27,
+      19,
+      13,
+      7,
+      4,
+      1
+    ],
+    "n": 71,
+    "moves": [
+      {
+        "claim": "原七步集或三步集均严格降维",
+        "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+        "move": "第二钩给第三钩",
+        "h_prime": [
+          27,
+          18,
+          14,
+          7,
+          4,
+          1
+        ],
+        "ratio": "1153953125/1650478599"
+      }
+    ]
+  },
+  {
+    "id": "B-n71-UT21",
+    "h": [
+      27,
+      19,
+      13,
+      7,
+      4,
+      1
+    ],
+    "n": 71,
+    "moves": [
+      {
+        "claim": "原七步集或三步集均严格降维",
+        "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+        "move": "第二钩给首钩",
+        "h_prime": [
+          28,
+          18,
+          13,
+          7,
+          4,
+          1
+        ],
+        "ratio": "40375/56133"
+      }
+    ]
+  },
+  {
+    "id": "B-n71-RD3",
+    "h": [
+      27,
+      19,
+      13,
+      7,
+      4,
+      1
+    ],
+    "n": 71,
+    "moves": [
+      {
+        "claim": "原七步集或三步集均严格降维",
+        "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+        "move": "删末钩给第三钩",
+        "h_prime": [
+          27,
+          19,
+          14,
+          7,
+          4
+        ],
+        "ratio": "409600000/430644357"
+      }
+    ]
+  },
+  {
+    "id": "B-n71-escape",
+    "h": [
+      27,
+      19,
+      13,
+      7,
+      4,
+      1
+    ],
+    "n": 71,
+    "moves": [
+      {
+        "claim": "其他严格增维移动",
+        "source": "DeepSeek，class_b_proof_final.md §10; class_b_r6_intermediate_proof_v3.md Thm 3.1",
+        "move": "首钩给第四钩",
+        "h_prime": [
+          26,
+          19,
+          13,
+          8,
+          4,
+          1
+        ],
+        "ratio": "3726/2717"
+      }
+    ]
+  },
+  {
+    "id": "B-n143-RD",
+    "h": [
+      51,
+      22,
+      19,
+      16,
+      13,
+      10,
+      7,
+      4,
+      1
+    ],
+    "n": 143,
+    "moves": [
+      {
+        "claim": "九钩最密尾部仍有中间域",
+        "source": "DeepSeek，class_b_r6_intermediate_proof_v3.md Thm 2.2",
+        "move": "删末钩给首钩",
+        "h_prime": [
+          52,
+          22,
+          19,
+          16,
+          13,
+          10,
+          7,
+          4
+        ],
+        "ratio": "1183896/1198615"
+      }
+    ]
+  },
+  {
+    "id": "B-n143-UT02",
+    "h": [
+      51,
+      22,
+      19,
+      16,
+      13,
+      10,
+      7,
+      4,
+      1
+    ],
+    "n": 143,
+    "moves": [
+      {
+        "claim": "九钩最密尾部仍有中间域",
+        "source": "DeepSeek，class_b_r6_intermediate_proof_v3.md Thm 2.2",
+        "move": "首钩给倒数第二钩",
+        "h_prime": [
+          50,
+          22,
+          19,
+          16,
+          13,
+          10,
+          7,
+          5,
+          1
+        ],
+        "ratio": "2567913257/2776779225"
+      }
+    ]
+  },
+  {
+    "id": "B-n143-escape",
+    "h": [
+      51,
+      22,
+      19,
+      16,
+      13,
+      10,
+      7,
+      4,
+      1
+    ],
+    "n": 143,
+    "moves": [
+      {
+        "claim": "九钩最密尾部仍有中间域",
+        "source": "DeepSeek，class_b_r6_intermediate_proof_v3.md Thm 2.2",
+        "move": "首钩给第二钩",
+        "h_prime": [
+          50,
+          23,
+          19,
+          16,
+          13,
+          10,
+          7,
+          4,
+          1
+        ],
+        "ratio": "1178435648/199290375"
+      }
+    ]
+  },
+  {
+    "id": "G-reduction-multi",
+    "h": [
+      15,
+      11,
+      8,
+      5,
+      2
+    ],
+    "n": 41,
+    "moves": [
+      {
+        "claim": "多间距时指定底部外拉不增维",
+        "source": "GPT 第四次审查，gap_review.md 多处间距接口",
+        "move": "第 5 钩给第 4 钩一个单位",
+        "h_prime": [
+          15,
+          11,
+          8,
+          6,
+          1
+        ],
+        "ratio": "875/891"
+      }
+    ]
+  },
+  {
+    "id": "G-reduction-single",
+    "h": [
+      17,
+      13,
+      9,
+      5,
+      2
+    ],
+    "n": 46,
+    "moves": [
+      {
+        "claim": "同末钩同秩的唯一间距3底部外拉严格增维",
+        "source": "DeepSeek，class_d_d2to18_proof_v9.md §2–3",
+        "move": "第 5 钩给第 4 钩一个单位",
+        "h_prime": [
+          17,
+          13,
+          9,
+          6,
+          1
+        ],
+        "ratio": "22/21"
+      }
+    ]
+  },
+  {
+    "id": "G-compressed",
+    "h": [
+      11,
+      7,
+      4,
+      1
+    ],
+    "n": 23,
+    "moves": [
+      {
+        "claim": "该序列的最佳合法保秩单位转移",
+        "source": "DeepSeek，class_g_final_closure_proof.md §4.2–4.3",
+        "move": "第 3 钩给第 1 钩一个单位",
+        "h_prime": [
+          12,
+          7,
+          3,
+          1
+        ],
+        "ratio": "297/175"
+      }
+    ]
+  },
+  {
+    "id": "G-expanded",
+    "h": [
+      12,
+      7,
+      4,
+      1
+    ],
+    "n": 24,
+    "moves": [
+      {
+        "claim": "同结构类型扩张后最佳合法单位转移反而变小",
+        "source": "DeepSeek，class_g_final_closure_proof.md §4.2–4.3",
+        "move": "第 3 钩给第 1 钩一个单位",
+        "h_prime": [
+          13,
+          7,
+          3,
+          1
+        ],
+        "ratio": "729/455"
+      }
+    ]
+  },
+  {
+    "id": "G-penultimate-receiver-A",
+    "h": [
+      49,
+      46,
+      43,
+      40,
+      37,
+      34,
+      31,
+      28,
+      25
+    ],
+    "n": 333,
+    "moves": [
+      {
+        "claim": "Case A 指定移步在 n>300 降维",
+        "source": "DeepSeek，class_g_final_closure_proof_v2.md §4.3",
+        "move": "第 2 钩给第 8 钩一个单位",
+        "h_prime": [
+          49,
+          45,
+          43,
+          40,
+          37,
+          34,
+          31,
+          29,
+          25
+        ],
+        "ratio": "6874208911360/44980964823861"
+      }
+    ]
+  },
+  {
+    "id": "G-penultimate-receiver-B",
+    "h": [
+      50,
+      46,
+      43,
+      40,
+      37,
+      34,
+      31,
+      28,
+      25
+    ],
+    "n": 334,
+    "moves": [
+      {
+        "claim": "Case B 指定移步在 n>300 降维",
+        "source": "DeepSeek，class_g_final_closure_proof_v2.md §4.4",
+        "move": "第 1 钩给第 8 钩一个单位",
+        "h_prime": [
+          49,
+          46,
+          43,
+          40,
+          37,
+          34,
+          31,
+          29,
+          25
+        ],
+        "ratio": "1054000/11847231"
+      }
+    ]
+  },
+  {
+    "id": "G-rank-four",
+    "h": [
+      289,
+      7,
+      4,
+      1
+    ],
+    "n": 301,
+    "moves": [
+      {
+        "claim": "统一转移在低秩 n=301 时严格降维",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.1",
+        "move": "第 3 钩给第 1 钩一个单位",
+        "h_prime": [
+          290,
+          7,
+          3,
+          1
+        ],
+        "ratio": "85544/2556095"
+      }
+    ]
+  },
+  {
+    "id": "G-rank-four-escape",
+    "h": [
+      289,
+      7,
+      4,
+      1
+    ],
+    "n": 301,
+    "moves": [
+      {
+        "claim": "同一序列有其他合法增维移动",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.1",
+        "move": "第 1 钩给第 2 钩一个单位",
+        "h_prime": [
+          288,
+          8,
+          4,
+          1
+        ],
+        "ratio": "1250127769625/22570819776"
+      }
+    ]
+  },
+  {
+    "id": "G-rank-ten",
+    "h": [
+      160,
+      31,
+      27,
+      23,
+      19,
+      15,
+      11,
+      8,
+      5,
+      2
+    ],
+    "n": 301,
+    "moves": [
+      {
+        "claim": "统一转移在高秩 n=301 时严格降维",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.9 (3)",
+        "move": "第 10 钩给第 1 钩一个单位",
+        "h_prime": [
+          161,
+          31,
+          27,
+          23,
+          19,
+          15,
+          11,
+          8,
+          5,
+          1
+        ],
+        "ratio": "6608856989645801921875/15305516896434406817792"
+      }
+    ]
+  },
+  {
+    "id": "G-rank-ten-escape",
+    "h": [
+      160,
+      31,
+      27,
+      23,
+      19,
+      15,
+      11,
+      8,
+      5,
+      2
+    ],
+    "n": 301,
+    "moves": [
+      {
+        "claim": "同一序列有其他合法增维移动",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.9 (3)",
+        "move": "第 1 钩给第 2 钩一个单位",
+        "h_prime": [
+          159,
+          32,
+          27,
+          23,
+          19,
+          15,
+          11,
+          8,
+          5,
+          2
+        ],
+        "ratio": "537716654786570957775/48945048969440764829"
+      }
+    ]
+  },
+  {
+    "id": "G-translation-n301",
+    "h": [
+      80,
+      77,
+      74,
+      70
+    ],
+    "n": 301,
+    "moves": [
+      {
+        "claim": "固定差与同一指定移动，n=301 的精确全比",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.8",
+        "move": "第 4 钩给第 1 钩一个单位",
+        "h_prime": [
+          81,
+          77,
+          74,
+          69
+        ],
+        "ratio": "571805696/84757599"
+      }
+    ]
+  },
+  {
+    "id": "G-translation-n305",
+    "h": [
+      81,
+      78,
+      75,
+      71
+    ],
+    "n": 305,
+    "moves": [
+      {
+        "claim": "固定差与同一指定移动，n=305 的精确全比",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md Thm 4.8",
+        "move": "第 4 钩给第 1 钩一个单位",
+        "h_prime": [
+          82,
+          78,
+          75,
+          70
+        ],
+        "ratio": "16373097/2487880"
+      }
+    ]
+  },
+  {
+    "id": "D-d5-boundary",
+    "h": [
+      20,
+      16,
+      12,
+      8,
+      5
+    ],
+    "n": 61,
+    "moves": [
+      {
+        "claim": "唯一底部间距3且 r=5 的外拉持平边界",
+        "source": "DeepSeek，class_d_d2to18_proof_v9.md §5",
+        "move": "第 5 钩给第 4 钩一个单位",
+        "h_prime": [
+          20,
+          16,
+          12,
+          9,
+          4
+        ],
+        "ratio": "1/1"
+      }
+    ]
+  },
+  {
+    "id": "D-d5-boundary-escape",
+    "h": [
+      20,
+      16,
+      12,
+      8,
+      5
+    ],
+    "n": 61,
+    "moves": [
+      {
+        "claim": "持平边界仍可严格增维",
+        "source": "DeepSeek，class_d_d2to18_proof_v9.md §5",
+        "move": "第 5 钩给第 1 钩一个单位",
+        "h_prime": [
+          21,
+          16,
+          12,
+          8,
+          4
+        ],
+        "ratio": "4158/1615"
+      }
+    ]
+  },
+  {
+    "id": "H-central-k8",
+    "h": [
+      29,
+      25,
+      21,
+      17,
+      14,
+      10,
+      6,
+      2
+    ],
+    "n": 124,
+    "moves": [
+      {
+        "claim": "H(8,3) 中央外拉严格降维",
+        "source": "ChatGPT Chat 第二轮，gap3_infinite_family.md §3",
+        "move": "第 5 钩给第 4 钩一个单位",
+        "h_prime": [
+          29,
+          25,
+          21,
+          18,
+          13,
+          10,
+          6,
+          2
+        ],
+        "ratio": "368/441"
+      }
+    ]
+  },
+  {
+    "id": "G-rank-four-d2",
+    "h": [
+      286,
+      8,
+      5,
+      2
+    ],
+    "n": 301,
+    "moves": [
+      {
+        "h_prime": [
+          287,
+          8,
+          5,
+          1
+        ],
+        "claim": "Thm 4.1 在 n=301、末钩2时的统一移动降维",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md §4.1",
+        "move": "末钩给首钩",
+        "ratio": "4877597725/77596107959"
+      }
+    ]
+  },
+  {
+    "id": "G-rank-four-d2-escape",
+    "h": [
+      286,
+      8,
+      5,
+      2
+    ],
+    "n": 301,
+    "moves": [
+      {
+        "h_prime": [
+          285,
+          9,
+          5,
+          2
+        ],
+        "claim": "同序列另有严格增维移动",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md §4.1",
+        "move": "首钩给第二钩",
+        "ratio": "45238116352/755856841"
+      }
+    ]
+  },
+  {
+    "id": "G-template-expansion",
+    "h": [
+      220,
+      30,
+      27,
+      24
+    ],
+    "n": 301,
+    "moves": [
+      {
+        "h_prime": [
+          221,
+          30,
+          27,
+          23
+        ],
+        "claim": "模板 (34,30,27,24) 单独扩张首钩后的同移动降维",
+        "source": "DeepSeek，class_g_final_closure_proof_v3.md §4.7–4.8",
+        "move": "末钩给首钩",
+        "ratio": "16838745264/50318258809"
+      }
+    ]
+  },
+  {
+    "id": "within-rank-curvature-down",
+    "h": [
+      24,
+      15,
+      6
+    ],
+    "n": 45,
+    "moves": [
+      {
+        "h_prime": [
+          23,
+          15,
+          7
+        ],
+        "claim": "两方向的比相乘为65536/65205>1",
+        "source": "DeepSeek，within_rank_convexity_g1_v2.md Thm 3.1",
+        "move": "首钩给末钩",
+        "ratio": "524288/302841"
+      }
+    ]
+  },
+  {
+    "id": "within-rank-curvature-up",
+    "h": [
+      24,
+      15,
+      6
+    ],
+    "n": 45,
+    "moves": [
+      {
+        "h_prime": [
+          25,
+          15,
+          5
+        ],
+        "claim": "两方向的比相乘为65536/65205>1",
+        "source": "DeepSeek，within_rank_convexity_g1_v2.md Thm 3.1",
+        "move": "末钩给首钩",
+        "ratio": "209/360"
+      }
+    ]
+  },
+  {
+    "id": "G4-concentration",
+    "h": [
+      26,
+      11,
+      7,
+      3
+    ],
+    "n": 47,
+    "moves": [
+      {
+        "h_prime": [
+          21,
+          14,
+          9,
+          3
+        ],
+        "claim": "同秩、同末钩、同总和的首间距集中松弛劣于分散松弛",
+        "source": "DeepSeek，cross_rank_G4_balanced_slack_proof.md Thm 1.1, Cor 1.2",
+        "move": "重新分配间距松弛",
+        "ratio": "529815/65536"
+      }
+    ]
+  },
+  {
+    "id": "tie-45",
+    "h": [
+      22,
+      16,
+      7
+    ],
+    "n": 45,
+    "moves": [
+      {
+        "h_prime": [
+          24,
+          14,
+          7
+        ],
+        "claim": "等维但非单位主钩转移",
+        "source": "DeepSeek，《第四次提示后的纠偏》 §1.1",
+        "move": "第二钩给首钩两个单位",
+        "ratio": "1/1"
+      }
+    ]
+  },
+  {
+    "id": "tie-45-escape",
+    "h": [
+      22,
+      16,
+      7
+    ],
+    "n": 45,
+    "moves": [
+      {
+        "h_prime": [
+          20,
+          14,
+          8,
+          3
+        ],
+        "claim": "同秩等维对的共同值低于全局最大",
+        "source": "DeepSeek，《第四次提示后的纠偏》 §1.1",
+        "move": "换为严格更大的秩4序列",
+        "ratio": "87723/8092"
+      }
+    ]
+  }
+]
