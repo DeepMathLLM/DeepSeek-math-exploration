@@ -1,0 +1,13 @@
+{
+  "defaultModel": "research",
+  "models": [
+    {
+      "id": "research",
+      "displayName": "研究模型",
+      "apiModel": "replace-with-your-deployment",
+      "apiMode": "responses",
+      "reasoningEffortSupported": false,
+      "maxOutputTokens": 8192
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>DeepMath · 多 Agent 科研协作工作台 3.0 开源版</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand"><div class="brand-mark">✦</div><div><strong>DeepMath</strong><span>科研协作工作台</span></div></div>
+        <button class="project-picker" id="project-picker" type="button" title="打开项目中心"><span class="eyebrow">项目中心</span><strong id="project-name">多agent科研协作工作台</strong><span class="project-picker-action">管理项目</span></button>
+        <div class="top-actions"><button id="back-home" class="back-home-button hidden" type="button">返回项目中心</button><button id="open-model-config" class="back-home-button" type="button">模型配置</button><span class="top-status"><i></i> 已连接</span></div>
+      </header>
+      <main class="layout">
+        <aside class="sidebar hidden" id="workspace-sidebar">
+          <div class="side-heading"><span>当前项目的研究 Agent</span><span class="count" id="agent-count">0</span></div>
+          <button id="project-overview" class="project-overview" type="button"><span class="overview-icon">⌂</span><span><strong>项目总览</strong><small>查看整个项目的状态和进展</small></span></button>
+          <button id="research-assets-nav" class="project-overview" type="button"><span class="overview-icon">◇</span><span><strong>研究资产库</strong><small>项目与专题、研究资产和原始汇报</small></span></button>
+          <div id="agent-list" class="agent-list"></div>
+          <button id="add-agent" class="add-agent" type="button"><span>＋</span> 添加研究 Agent</button>
+          <p class="sidebar-help">点击“添加研究 Agent”，填写名称和它负责的研究任务。</p>
+          <div class="side-footer"><div class="connection"><i></i><span>工作台已就绪</span></div><span class="version">V3.0</span></div>
+        </aside>
+        <section class="main-column">
+          <div class="content-scroll">
+            <section id="home-view" class="home-view">
+              <div class="home-hero"><div class="eyebrow">项目中心</div><h1>多agent科研协作工作台</h1><p class="muted">先创建或打开一个项目，再在项目中添加研究 Agent、提交任务并查看研究结果。</p><button class="primary-button home-create-project" id="home-create-project" type="button">新建研究项目</button></div>
+              <div class="home-summary"><div class="home-count" id="home-project-count">0</div><div><strong>个研究项目</strong><span>每个项目有独立的任务、Agent 和执行记录，研究资产可在本实例的项目间复用。</span></div></div>
+              <div class="section-header"><div><h2>已有项目</h2><p class="section-note">选择一个项目进入它的研究工作区</p></div></div>
+              <div id="home-project-list" class="home-project-list"></div>
+            </section>
+            <section id="dashboard-view" class="dashboard-view">
+              <div class="hero-row"><div><div class="eyebrow">当前项目</div><h1 id="hero-title">未选择项目</h1><p class="muted" id="workspace-label">请新建项目</p></div><div class="hero-actions"><button class="primary-button conversation-entry-button" id="open-conversation" type="button">进入 Controller 对话</button><button class="outline-button" id="choose-project" type="button">新建项目</button></div></div>
+              <section class="automation-panel"><div class="automation-copy"><div class="eyebrow">Controller 自动运行</div><strong id="automation-status">已暂停</strong><p id="automation-runtime">当前没有正在执行的任务</p><p id="automation-reason" class="muted">设置项目目标后，Controller 会在收到汇报或任务结束时核查研究情况，整理资产并安排下一步。</p></div><div class="automation-controls"><input id="automation-goal" type="text" placeholder="填写项目总体研究目标" aria-label="项目总体研究目标" /><button id="automation-toggle" class="primary-button" type="button">启动自动运行</button></div></section>
+              <section class="how-it-works"><div><div class="eyebrow">怎么使用</div><h2>把研究任务交给一个或多个 Agent 协作处理</h2></div><div class="guide-steps"><div><b>1</b><span>添加研究 Agent</span></div><div><b>2</b><span>分配研究任务</span></div><div><b>3</b><span>查看汇报与资产</span></div></div><p class="muted guide-note">点击左侧“添加研究 Agent”，填写长期研究方向、方法和要求；也可以直接输入“创建一个文献分析 Agent”这类要求，Controller 会根据描述补充配置。具体任务在下方用自然语言提交；需要指定已有 Agent 时，输入 <strong>@</strong>，从列表中选择。</p></section>
+              <div class="stat-grid" id="stat-grid"></div>
+              <section class="research-assessment-card"><div class="section-header"><h2>研究现状与计划</h2><button id="open-research-assessment" class="text-button" type="button">查看与编辑 →</button></div><div id="research-assessment-preview" class="markdown-body muted">正在读取研究现状…</div></section>
+              <div class="section-header"><div><h2>团队状态</h2><p class="section-note">查看当前项目中每个研究 Agent 正在做什么</p></div><span class="live-label"><i></i>实时更新</span></div>
+              <div id="team-pulse" class="team-pulse"></div>
+              <div class="section-header"><div><h2>最近任务进展</h2><p class="section-note">查看每次 Agent 任务的最新发现、遇到的问题和下一步建议；详细内容见 Agent 任务记录和资产库中的原始汇报。</p></div><button class="text-button" type="button" data-tab="progress">查看更多进展&nbsp; →</button></div>
+              <div id="recent-progress" class="progress-feed"></div>
+            </section>
+            <section id="conversation-view" class="conversation-view hidden"><div class="conversation-page-head"><div><button id="conversation-back" class="back-button" type="button">← 返回项目总览</button><div class="eyebrow">项目 Controller</div><h1>Controller 对话</h1><p class="muted">查看任务接收状态、处理中间进展和最终回复。</p></div><div class="conversation-page-actions"><span id="controller-status" class="live-label"></span><span id="controller-conversation-tools"></span><button id="compact-controller" class="outline-button" type="button" title="压缩当前 Controller 会话的上下文，保留项目记录">压缩上下文</button><span id="controller-compaction-status" class="action-help"></span></div></div><div id="controller-conversation" class="conversation-list"></div></section>
+            <section id="agent-view" class="agent-view hidden"></section>
+            <section id="bottom-section" class="bottom-section">
+              <div class="tabs"><button class="tab active" type="button" data-tab="progress">任务进展</button><button class="tab" type="button" data-tab="research">研究资产库</button><button class="tab" type="button" data-tab="files">项目文件</button><button class="tab" type="button" data-tab="activity">操作记录</button></div>
+              <div id="tab-content" class="tab-content"></div>
+            </section>
+          </div>
+          <div class="composer-wrap"><div class="composer"><div class="composer-label"><span>创建研究任务</span><span class="composer-label-help">描述目标、问题或需要验证的假设</span></div><textarea id="prompt" rows="1" placeholder="输入研究任务"></textarea><div id="agent-mention-menu" class="agent-mention-menu hidden" role="listbox" aria-label="选择研究 Agent"></div><div class="composer-toolbar"><span class="hint">Enter 提交 · Shift+Enter 换行 · @ 选择 Agent · /compact 压缩当前会话</span><div class="composer-actions"><div class="context-meter hidden" id="context-meter"><button id="context-meter-button" type="button" class="context-meter-button" aria-label="上下文窗口" aria-describedby="context-meter-tooltip" aria-expanded="false"><span class="context-meter-ring" aria-hidden="true"></span><span id="context-meter-value">—</span></button><div id="context-meter-tooltip" class="context-meter-tooltip" role="tooltip"></div></div><label class="model-picker"><span class="sr-only">选择模型</span><select id="project-model" aria-label="选择当前项目使用的模型"><option value="">选择模型</option></select></label><label class="model-picker effort-picker"><span class="sr-only">选择推理强度</span><select id="project-effort" aria-label="选择当前项目的推理强度" aria-describedby="reasoning-effort-note"><option value="">推理强度</option></select></label><button id="stop-controller" class="stop-button hidden" type="button">■ 停止当前请求</button><button id="stop-agent-run" class="stop-button hidden" type="button">■ 停止当前请求</button><button id="send" class="send-button" type="button">提交任务&nbsp; <span>↑</span></button></div></div><div id="reasoning-effort-note" class="reasoning-effort-note hidden" aria-live="polite"></div></div></div>
+        </section>
+        <aside class="context-panel hidden" id="context-panel"><div class="context-head"><span class="eyebrow">项目助手</span><button id="close-context" type="button" class="back-button">返回项目总览</button></div><div id="context-content"></div></aside>
+      </main>
+      <div id="toast" class="toast"></div>
+      <dialog id="project-dialog"><form id="project-form" novalidate><div class="dialog-head"><h3>项目中心</h3><button type="button" data-close-dialog class="close-button" aria-label="关闭">×</button></div><p class="muted">创建项目时填写名称，工作台会自动分配项目文件夹。</p><div class="project-list-head"><span>已有项目</span></div><div id="project-list" class="project-list"></div><div class="new-project-fields"><div class="project-list-head"><span>新建项目</span></div><label>项目名称<input id="project-title" placeholder="填写研究项目名称" required maxlength="100" /></label><div class="dialog-actions"><button type="button" data-close-dialog class="outline-button">取消</button><button type="submit" class="primary-button">创建项目</button></div></div></form></dialog>
+      <dialog id="model-config-dialog" class="model-config-dialog"><form><div class="dialog-head"><h3>模型配置</h3><button type="button" data-close-model-config class="close-button" aria-label="关闭">×</button></div><p class="muted">模型来自 models.config.json。页面只显示非敏感配置，Key 不会返回。</p><div id="model-config-content" class="model-config-content"><div class="muted">正在读取模型配置…</div></div><div class="dialog-actions"><button type="button" data-close-model-config class="outline-button">关闭</button></div></form></dialog>
+      <dialog id="agent-dialog"><form id="agent-form"><div class="dialog-head"><h3 id="agent-dialog-title">添加研究 Agent</h3><button type="button" data-close-dialog class="close-button" aria-label="关闭">×</button></div><p id="agent-dialog-help" class="muted">为当前项目添加一个长期研究 Agent。研究方向、方法和要求会在它每次接收任务时生效。</p><label>Agent 名称<input id="agent-name" placeholder="填写 Agent 名称" required /></label><label>长期研究方向与目标<textarea id="agent-content" rows="4" placeholder="填写它要持续研究的方向、问题或目标；具体任务在对话中分配"></textarea></label><label>研究方法或技能<textarea id="agent-skills" rows="4" placeholder="填写可采用的方法或技能，每行一项，也可以用逗号分隔"></textarea></label><label>长期要求（可选）<textarea id="agent-instructions" rows="2" placeholder="填写每次研究都需要遵守的要求"></textarea></label><label class="checkbox-label"><input id="agent-automatic" type="checkbox" checked /><span><strong>允许 Controller 自动分配任务</strong><small>关闭后，Controller 自动运行时不会给它分配新任务；仍可在对话中直接给它任务。</small></span></label><div class="dialog-actions"><button type="button" data-close-dialog class="outline-button">取消</button><button id="agent-submit" type="submit" class="primary-button">创建研究 Agent</button></div></form></dialog>
+    </div>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['\\(', '\\)'], ['$', '$']],
+          displayMath: [['\\[', '\\]'], ['$$', '$$']],
+          processEscapes: true
+        },
+        options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/asset-graph.js"></script>
+    <script src="/research.js"></script>
+    <input id="project-file-upload" type="file" multiple hidden aria-label="选择上传到当前项目的文件" />
+    <script src="/project-delta.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

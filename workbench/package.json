@@ -1,0 +1,19 @@
+{
+  "name": "deepmath-research-workbench",
+  "version": "3.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Controller-led multi-agent research with persistent projects and research assets",
+  "main": "src/server.js",
+  "scripts": {
+    "setup": "node scripts/setup.cjs",
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --env-file-if-exists=.env --watch src/server.js",
+    "test": "node --test",
+    "check": "node --env-file-if-exists=.env scripts/check-config.cjs",
+    "check:open-source": "node scripts/check-open-source.cjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
