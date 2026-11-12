@@ -201,3 +201,13 @@ L(p^2)=-206,
 ## 主办团队
 
 Xiaoyang Chen, Qiaofeng Qu, Jiang Xiang, Zeren Zheng
+
+---
+
+## 加入社区
+
+欢迎扫码加入 AI X Math 社区群。
+
+<img src="assets/community-qr-20261112.jpg" alt="AI X Math 社区群二维码" width="400">
+
+二维码有效期至 2026 年 11 月 19 日（以微信提示为准）。
