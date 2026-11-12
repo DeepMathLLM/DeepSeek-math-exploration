@@ -171,3 +171,33 @@ L(p^2)=-206,
 **模型设置 → [模型配置说明](workbench/MODEL_CONFIGURATION.md)**
 
 代码采用 [MIT License](LICENSE)。
+
+---
+
+## 共创者
+
+| 组别 | 姓名 / 称呼 | 学校 / 机构 |
+| --- | --- | --- |
+| deepmath04 | Kangjian wu | Shanghai Normal University |
+| deepmath07 | TZM | Huazhong University of Science and Technology |
+| deepmath06 | Emina | Hangzhou International Innovation Institute, Beihang University |
+| deepmath06 | Kevin | Nanyang Technological University |
+| deepmath01 | Peijie Li | The University of Hong Kong |
+| deepmath11 | hao yuan |  |
+| deepmath11 | Ruyu Huang | Academy of Mathematics and Systems Science, Chinese Academy of Sciences |
+| deepmath11 | Jiewen Wang | Zhejiang University |
+| deepmath11 | Cat.Jin | University of Cologne |
+| deepmath05 | Xiongfeng Zhan | Beijing Jiaotong University |
+| deepmath09 | Dora | Shanghai Jiao Tong University |
+| deepmath11 | Zhe Li | Xiamen University |
+| deepmath01 | Yi Cheng | East China Normal University |
+| deepmath07 | Yun Pu | AMSS, CAS |
+| deepmath04 | Ziming Wang | Beijing University of Posts and Telecommunications |
+| deepmath09 | Kaichang Yu | Zhejiang University |
+| deepmath03 | Jingzhao Zhang | Nanjing Normal University |
+| deepmath05 | Ziyi Zhai |  |
+| deepmath01 | Dier Tang | The University of Hong Kong |
+
+## 主办团队
+
+Xiaoyang Chen, Qiaofeng Qu, Jiang Xiang, Zeren Zheng
