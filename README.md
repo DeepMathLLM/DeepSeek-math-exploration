@@ -178,25 +178,25 @@ L(p^2)=-206,
 
 | 组别 | 姓名 / 称呼 | 学校 / 机构 |
 | --- | --- | --- |
-| deepmath04 | Kangjian wu | Shanghai Normal University |
-| deepmath07 | TZM | Huazhong University of Science and Technology |
-| deepmath06 | Emina | Hangzhou International Innovation Institute, Beihang University |
-| deepmath06 | Kevin | Nanyang Technological University |
-| deepmath01 | Peijie Li | The University of Hong Kong |
-| deepmath11 | hao yuan |  |
-| deepmath11 | Ruyu Huang | Academy of Mathematics and Systems Science, Chinese Academy of Sciences |
-| deepmath11 | Jiewen Wang | Zhejiang University |
-| deepmath11 | Cat.Jin | University of Cologne |
-| deepmath05 | Xiongfeng Zhan | Beijing Jiaotong University |
-| deepmath09 | Dora | Shanghai Jiao Tong University |
-| deepmath11 | Zhe Li | Xiamen University |
-| deepmath01 | Yi Cheng | East China Normal University |
-| deepmath07 | Yun Pu | AMSS, CAS |
-| deepmath04 | Ziming Wang | Beijing University of Posts and Telecommunications |
-| deepmath09 | Kaichang Yu | Zhejiang University |
-| deepmath03 | Jingzhao Zhang | Nanjing Normal University |
-| deepmath05 | Ziyi Zhai |  |
-| deepmath01 | Dier Tang | The University of Hong Kong |
+| 01 | Peijie Li | The University of Hong Kong |
+| 01 | Yi Cheng | East China Normal University |
+| 01 | Dier Tang | The University of Hong Kong |
+| 03 | Jingzhao Zhang | Nanjing Normal University |
+| 04 | Kangjian wu | Shanghai Normal University |
+| 04 | Ziming Wang | Beijing University of Posts and Telecommunications |
+| 05 | Xiongfeng Zhan | Beijing Jiaotong University |
+| 05 | Ziyi Zhai |  |
+| 06 | Emina | Hangzhou International Innovation Institute, Beihang University |
+| 06 | Kevin | Nanyang Technological University |
+| 07 | TZM | Huazhong University of Science and Technology |
+| 07 | Yun Pu | AMSS, CAS |
+| 09 | Dora | Shanghai Jiao Tong University |
+| 09 | Kaichang Yu | Zhejiang University |
+| 11 | hao yuan |  |
+| 11 | Ruyu Huang | Academy of Mathematics and Systems Science, Chinese Academy of Sciences |
+| 11 | Jiewen Wang | Zhejiang University |
+| 11 | Cat.Jin | University of Cologne |
+| 11 | Zhe Li | Xiamen University |
 
 ## 主办团队
 
