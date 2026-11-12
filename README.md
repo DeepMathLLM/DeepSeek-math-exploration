@@ -6,7 +6,7 @@
 
 这一次，答案是一组可以独立核验的数学对象：
 
-> **DeepSeek 找到了一个只有7个顶点的反例，用23个极大团击穿了 Tomescu 猜想预测的21个。**
+> **DeepSeek 找到了一个只有7个顶点的反例，用23个 Maximal Clique 击穿了 Tomescu 猜想预测的21个。**
 
 这一成果来自 **AI X Math 社区** 发起、**同济 DeepMath 团队** 提供智能体系统与 DeepSeek API 支持的前沿数学探索活动。
 
