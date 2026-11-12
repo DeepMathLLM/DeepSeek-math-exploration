@@ -213,3 +213,9 @@ Xiaoyang Chen, Qiaofeng Qu, Jiang Xiang, Zeren Zheng
 <img src="assets/community-qr-20261112.jpg" alt="AI X Math 社区群二维码" width="400">
 
 二维码有效期至 2026 年 11 月 19 日（以微信提示为准）。
+
+### 合作与入群联系
+
+如需合作或加入社区群聊，欢迎扫描下方二维码联系。
+
+<img src="assets/contact-qr-20261112.jpg" alt="合作与社区群聊联系二维码" width="400">
