@@ -202,7 +202,7 @@ L(p^2)=-206,
 
 ## 主办团队
 
-Xiaoyang Chen, Qiaofeng Qu, Jiang Xiang, Zeren Zheng
+Xiaoyang Chen, Qiaofeng Qu, Xiang Jiang, Zeren Zheng
 
 ---
 
